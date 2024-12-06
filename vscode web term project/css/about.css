@@ -1,0 +1,12 @@
+/* 
+Author: Khylan Isacc
+Date: Nov 15, 2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+		margin: 0;
+		padding: 0;
+		border: 0;
+}

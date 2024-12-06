@@ -1,0 +1,151 @@
+/* 
+Author: Khylan Isacc
+Date: Nov 15, 2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+		margin: 0;
+		padding: 0;
+		border: 0;
+}
+
+/* Background color */
+body {
+    background-color: rgba(207, 207, 207, 0.993);
+  }
+
+/* logo centered to middle */
+header {
+    text-align: center;
+}
+
+/* nav bar */
+h1{
+    text-align: center;
+    font-size: 5.5em;
+    color: #126239;
+    font-family: roboto slab;
+}
+
+h2{
+    color:#126239;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #126239;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:#1a864e
+}
+
+.navbar li{
+    float: left
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: rgba(160, 154, 154, 0.993);
+    overflow: auto;
+    display: block;
+    border: round;
+    box-shadow: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+.action {
+    font-size: 1.25em;
+    color: #828291;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    margin-top: 1em;
+}
+
+/*weekly sale image edits */
+#nike, #asic, #balance {
+    margin: 0 2%;
+}
+
+h3 {
+   font-size: 3em;
+    color:#126239 
+}
+
+#info {
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+}
+
+.round {
+border-radius: 8px;
+}
+
+/* Contact map content */
+
+#contact .email-link {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tel-link {
+background-color: #126239;
+padding: 1em;
+margin: auto;
+width: 100%;
+text-align: center;
+border-radius: 5px;
+}
+
+.tel-link a {
+color: #ffffff;
+text-decoration: none;
+font-size: 1.5em;
+display: block;
+}
+
+.map {
+    border-style:outset;
+    border-width: 5px;
+    border-color: 5px solid #126239;
+    padding: 5px;
+}
